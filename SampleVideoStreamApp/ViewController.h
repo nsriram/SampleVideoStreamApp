@@ -1,13 +1,12 @@
-//
-//  ViewController.h
-//  SampleVideoStreamApp
-//
-//  Created by Sriram Narasimhan on 18/12/11.
-//  Copyright (c) 2011 ThoughtWorks. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MPMoviePlayerController.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    UIView *movieView;
+    MPMoviePlayerController *player;
+}
+@property (nonatomic,retain) IBOutlet UIView *movieView;
+@property (nonatomic,retain) IBOutlet MPMoviePlayerController *player;
+-(NSURL*) movieURL;
 
 @end

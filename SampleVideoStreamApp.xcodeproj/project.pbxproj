@@ -15,6 +15,8 @@
 		C34D8297149DC2FD00D0413E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C34D8296149DC2FD00D0413E /* AppDelegate.m */; };
 		C34D829A149DC2FD00D0413E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34D8298149DC2FD00D0413E /* MainStoryboard.storyboard */; };
 		C34D829D149DC2FD00D0413E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34D829C149DC2FD00D0413E /* ViewController.m */; };
+		C34D82A4149DC33F00D0413E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34D82A3149DC33F00D0413E /* MediaPlayer.framework */; };
+		C34D82A6149DC72200D0413E /* sample.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C34D82A5149DC72200D0413E /* sample.m4v */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,17 @@
 		C34D8286149DC2FD00D0413E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C34D8288149DC2FD00D0413E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C34D828A149DC2FD00D0413E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C34D828E149DC2FD00D0413E /* SampleVideoStreamApp-Info.plist */ = {isa = PBXFileReference; path = "SampleVideoStreamApp-Info.plist"; sourceTree = "<group>"; };
+		C34D828E149DC2FD00D0413E /* SampleVideoStreamApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleVideoStreamApp-Info.plist"; sourceTree = "<group>"; };
 		C34D8290149DC2FD00D0413E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C34D8292149DC2FD00D0413E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C34D8294149DC2FD00D0413E /* SampleVideoStreamApp-Prefix.pch */ = {isa = PBXFileReference; path = "SampleVideoStreamApp-Prefix.pch"; sourceTree = "<group>"; };
-		C34D8295149DC2FD00D0413E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C34D8294149DC2FD00D0413E /* SampleVideoStreamApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleVideoStreamApp-Prefix.pch"; sourceTree = "<group>"; };
+		C34D8295149DC2FD00D0413E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C34D8296149DC2FD00D0413E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C34D8299149DC2FD00D0413E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C34D829B149DC2FD00D0413E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		C34D829B149DC2FD00D0413E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C34D829C149DC2FD00D0413E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C34D82A3149DC33F00D0413E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C34D82A5149DC72200D0413E /* sample.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.m4v; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C34D82A4149DC33F00D0413E /* MediaPlayer.framework in Frameworks */,
 				C34D8287149DC2FD00D0413E /* UIKit.framework in Frameworks */,
 				C34D8289149DC2FD00D0413E /* Foundation.framework in Frameworks */,
 				C34D828B149DC2FD00D0413E /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +72,7 @@
 		C34D8285149DC2FD00D0413E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C34D82A3149DC33F00D0413E /* MediaPlayer.framework */,
 				C34D8286149DC2FD00D0413E /* UIKit.framework */,
 				C34D8288149DC2FD00D0413E /* Foundation.framework */,
 				C34D828A149DC2FD00D0413E /* CoreGraphics.framework */,
@@ -77,6 +83,7 @@
 		C34D828C149DC2FD00D0413E /* SampleVideoStreamApp */ = {
 			isa = PBXGroup;
 			children = (
+				C34D82A5149DC72200D0413E /* sample.m4v */,
 				C34D8295149DC2FD00D0413E /* AppDelegate.h */,
 				C34D8296149DC2FD00D0413E /* AppDelegate.m */,
 				C34D8298149DC2FD00D0413E /* MainStoryboard.storyboard */,
@@ -151,6 +158,7 @@
 			files = (
 				C34D8291149DC2FD00D0413E /* InfoPlist.strings in Resources */,
 				C34D829A149DC2FD00D0413E /* MainStoryboard.storyboard in Resources */,
+				C34D82A6149DC72200D0413E /* sample.m4v in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
